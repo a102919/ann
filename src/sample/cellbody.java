@@ -11,10 +11,10 @@ import java.util.Map;
 public class cellbody {
     public Map<Integer,Double> initW(){
         Map<Integer,Double> w = new HashMap<>();
-        double w1 = (Math.random()*(1-0) + 0);
-        double w2 = (Math.random()*(1-0) + 0);
-        double w3 = (Math.random()*(1-0) + 0);
-        double w4 = (Math.random()*(1-0) + 0);
+        double w1 = (Math.random()*(2-0) - 1);
+        double w2 = (Math.random()*(2-0) - 1);
+        double w3 = (Math.random()*(2-0) - 1);
+        double w4 = (Math.random()*(2-0) - 1);
         w.put(0,w1);
         w.put(1,w2);
         w.put(2,w3);
